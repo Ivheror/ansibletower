@@ -1,0 +1,29 @@
+{
+	"name": "fdmsantos/ansibletower",
+    "description": "PHP SDK for Ansible Tower Api",
+	"keywords": [
+        "php",
+        "ansible",
+        "tower",
+        "api",
+        "red-hat",
+        "red hat",
+        "sdk"
+    ],
+    "license": "Apache-2.0",
+    "minimum-stability": "beta",
+    "authors": [
+        {
+            "name": "Fabio Santos",
+            "email": "fabiodanielmonteirosantos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AnsibleTower\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
